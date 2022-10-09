@@ -1,0 +1,218 @@
+{
+    "users":[
+        {
+            "id":1,
+            "name":"Alejandra Milán",
+            "phone": 362145,
+            "password":"789456",
+            "image":"../images/user1.png",
+            "online":true,
+            "info":"economist"
+        },
+        {
+            "id":2,
+            "name":"Fernando Suarez",
+            "phone": 895412,
+            "password":"369521",
+            "image":"../images/user2.png",
+            "online":true,
+            "info":"Teacher" 
+        },
+        {
+            "id":3,
+            "name":"Olivia Mar",
+            "phone": 841236,
+            "password":"123045",
+            "image":"../images/user3.png",
+            "online":false,
+            "info":"Student" 
+        },
+        {
+            "id":4,
+            "name":"Roger Thomp",
+            "phone": 963258,
+            "password":"123369",
+            "image":"../images/user4.png",
+            "online":true,
+            "info":"administrator"   
+        },
+        {
+            "id":5,
+            "name":"Margareth Lung",
+            "phone": 852174,
+            "password":"852103",
+            "image":"../images/user5.png",
+            "online":true,
+            "info":"doctor" 
+        },
+        {
+            "id":6,
+            "name":"Francisco Mosquera",
+            "phone": 521987,
+            "password":"321058",
+            "image":"../images/user6.png",
+            "online":false,
+            "info":"architect"
+        },
+        {
+            "id":7,
+            "name":"Francisco Mosquera",
+            "phone": 521987,
+            "password":"321058",
+            "image":"../images/user6.png",
+            "online":false,
+            "info":"architect"
+        },
+        {
+            "id":8,
+            "name":"Sofía Martinez",
+            "phone": 591478,
+            "password":"028412",
+            "image":"../images/user10.png",
+            "online":true,
+            "info":"maid"
+        }
+    ],
+
+    "messages": [
+        {
+            "idUser1":1,
+            "idUser2":4,
+            "conversation":[
+                {
+                    "sendBy":1,
+                    "date":"03/10/2022",
+                    "hour":"3:10 p.m.",
+                    "message":"Hola Roger, ¿Cómo estás hoy?",
+                    "visto":true
+                },
+                {
+                    "sendBy":4,
+                    "date":"03/10/2022",
+                    "hour":"3:18 p.m.",
+                    "message":"Hola Aleja, estoy bien gracias ¿Cómo estás tu?",
+                    "visto":true
+                },
+                {
+                    "sendBy":1,
+                    "date":"03/10/2022",
+                    "hour":"3:25 p.m.",
+                    "message":"Bien también... Te escribo para agendar una asesoría, ¿podrías mañana en la mañana?",
+                    "visto":true
+                },
+                {
+                    "sendBy":4,
+                    "date":"03/10/2022",
+                    "hour":"3:27 p.m.",
+                    "message":"mmm dame un momento reviso mi agenda y te confirmo",
+                    "visto":false
+                }
+            ]
+        },
+
+        {
+            "idUser1":1,
+            "idUser2":7,
+            "conversation":[
+                {
+                    "sendBy":1,
+                    "date":"05/10/2022",
+                    "hour":"10:05 a.m.",
+                    "message":"Buen día Francisco, ¿Cómo amaneciste?",
+                    "visto":true
+                },
+                {
+                    "sendBy":7,
+                    "date":"05/10/2022",
+                    "hour":"12:10 p.m.",
+                    "message":"Hola Aleja, disculpa la hora de responder, he tenido mucho trabajo",
+                    "visto":true
+                },
+                {
+                    "sendBy":1,
+                    "date":"05/10/2022",
+                    "hour":"12:25 p.m.",
+                    "message":"No te preocupes, ¿Cómo vas en el trabajo?",
+                    "visto":true
+                },
+                {
+                    "sendBy":7,
+                    "date":"05/10/2022",
+                    "hour":"12:27 p.m.",
+                    "message":"Muy bien, estoy muy feliz en mi nuevo trabajo, ¿Cuéntame para que me necesitas?",
+                    "visto":false
+                }
+            ]
+        },
+        {
+            "idUser1":1,
+            "idUser2":5,
+            "conversation":[
+                {
+                    "sendBy":1,
+                    "date":"01/10/2022",
+                    "hour":"6:02 p.m.",
+                    "message":"Hola doctora, ¿Cómo está?",
+                    "visto":true
+                },
+                {
+                    "sendBy":5,
+                    "date":"01/10/2022",
+                    "hour":"6:10 p.m.",
+                    "message":"Hola, ¿muy bien y usted?, ¿todo bien ¿y tu?",
+                    "visto":true
+                },
+                {
+                    "sendBy":1,
+                    "date":"01/10/2022",
+                    "hour":"6:16 p.m.",
+                    "message":"Regular doctora, hoy estuve conociendo un lugar muy frío y no me siento bien",
+                    "visto":true
+                },
+                {
+                    "sendBy":5,
+                    "date":"01/10/2022",
+                    "hour":"6:27 p.m.",
+                    "message":"¿Quieres que te revise?",
+                    "visto":false
+                }
+            ]
+        },
+            {
+            "idUser1":3,
+            "idUser2":7,
+            "conversation":[
+                {
+                    "sendBy":3,
+                    "date":"07/10/2022",
+                    "hour":"6:02 p.m.",
+                    "message":"Hola Francisco, ¿Cómo está?",
+                    "visto":true
+                },
+                {
+                    "sendBy":7,
+                    "date":"07/10/2022",
+                    "hour":"6:10 p.m.",
+                    "message":"Hola, ¿muy bien y tu?",
+                    "visto":true
+                },
+                {
+                    "sendBy":3,
+                    "date":"017/10/2022",
+                    "hour":"6:16 p.m.",
+                    "message":"Bien también, ¿Que planes tienes este finde?",
+                    "visto":true
+                },
+                {
+                    "sendBy":7,
+                    "date":"07/10/2022",
+                    "hour":"6:27 p.m.",
+                    "message":"Aún nada, ¿a que me vas a invitar?",
+                    "visto":false
+                }
+            ]
+        
+        }
+    
+    ]
+}
