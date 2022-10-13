@@ -5,7 +5,7 @@
             "name":"Alejandra Milán",
             "phone": 362145,
             "password":"789456",
-            "image":"../images/user1.png",
+            "image":"./img/images/user1.png",
             "online":true,
             "info":"economist"
         },
@@ -14,7 +14,7 @@
             "name":"Fernando Suarez",
             "phone": 895412,
             "password":"369521",
-            "image":"../images/user2.png",
+            "image":"./img/images/user2.png",
             "online":true,
             "info":"Teacher" 
         },
@@ -23,7 +23,7 @@
             "name":"Olivia Mar",
             "phone": 841236,
             "password":"123045",
-            "image":"../images/user3.png",
+            "image":"./img/images/user3.png",
             "online":false,
             "info":"Student" 
         },
@@ -32,7 +32,7 @@
             "name":"Roger Thomp",
             "phone": 963258,
             "password":"123369",
-            "image":"../images/user4.png",
+            "image":"./img/images/user4.png",
             "online":true,
             "info":"administrator"   
         },
@@ -41,7 +41,7 @@
             "name":"Margareth Lung",
             "phone": 852174,
             "password":"852103",
-            "image":"../images/user5.png",
+            "image":"./img/images/userr5.png",
             "online":true,
             "info":"doctor" 
         },
@@ -50,7 +50,7 @@
             "name":"Francisco Mosquera",
             "phone": 521987,
             "password":"321058",
-            "image":"../images/user6.png",
+            "image":"./img/images/user6.png",
             "online":false,
             "info":"architect"
         },
@@ -68,7 +68,7 @@
             "name":"Sofía Martinez",
             "phone": 591478,
             "password":"028412",
-            "image":"../images/user10.png",
+            "image":"./img/images/user10.png",
             "online":true,
             "info":"maid"
         }
